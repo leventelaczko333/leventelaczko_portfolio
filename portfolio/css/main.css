@@ -1,0 +1,111 @@
+body{
+	font:16px;
+	font:'Roboto', sans-serif;
+	font-weight: 300;
+
+	
+	border: 2px solid black;
+}
+*,*::before, *::after{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+
+img{
+	max-width: 100%;
+}
+/*--elrebdezes-szinekkel--*/
+body{
+	display: grid;
+	grid-template-areas: 
+	"nev"
+	"fejlec"
+	"kontent"
+	"lablec";
+	grid-template-rows: max-content max-content 1fr max-content;
+	min-height: 100vh;
+	display: grid;
+	grid-template-areas: 
+	"nev"
+	"fejlec"
+	"kontent"
+	"lablec"
+	;
+	grid-template-rows: max-content max-content 1fr max-content;
+	min-height: 100vh;
+
+
+}
+head{
+	
+	grid-area:nev;
+	grid-area: nev;
+	
+
+}
+header{
+	background-color: gray;
+	grid-area:fejlec;
+	grid-area: fejlec;
+	background-color: 	lightgrey;
+	user-select: 	none;
+	line-height: 2rem;
+	font-size: .95rem;
+	text-align: 	right;	
+	padding: 	.35rem 2rem;
+	font-size: 	1.19rem;
+	font-weight: 	400;
+
+
+}
+.fejlec-feliratok{
+	cursor: 	pointer;
+
+
+
+}
+margin: 	0 .5header .header_menu{ 
+1.6rem;
+ }
+ header .header_menu:hover{
+ 	color: 	red;
+ 	text-decoration: 	inherit;	
+
+
+
+
+
+
+
+ }
+main{
+	
+	grid-area:kontent;
+	grid-area: kontent;
+	font-size: 	2.1rem;
+
+
+
+
+
+
+
+
+
+}
+footer{
+	background-color: lightgrey;
+	grid-area:lablec;
+	grid-area: lablec;
+	
+ 	font-size: 	1.3rem;
+ 	padding: 	.35rem 2rem;
+
+
+
+}
+/*--elrebdezes-szinekkel-end--*/
+
+
